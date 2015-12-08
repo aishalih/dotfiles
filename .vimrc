@@ -74,6 +74,8 @@ set wildmenu
 set noswapfile
 set mouse=a
 set t_Co=256
+set term=screen-256color
+let g:solarized_termcolors=256 
 
 highlight Search cterm=underline
 
@@ -82,7 +84,6 @@ let g:session_directory = "~/.vim/session"
 let g:session_autoload = "no"
 let g:session_autosave = "no"
 let g:session_command_aliases = 1
-let g:solarized_termcolors=256 
 let mapleader=","
 
 " vim-python
